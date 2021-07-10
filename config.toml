@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://nerdycap.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Nerdycap"
 
 # Novela settings
 theme = "hugo-theme-novela"

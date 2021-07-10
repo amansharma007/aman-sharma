@@ -4,6 +4,8 @@ let bodyElement = document.getElementsByTagName("BODY")[0];
 let moonOrSun = document.getElementById("moonOrSun");
 let sunRays = document.getElementById("sunRays");
 let moonMask = document.getElementById("moonMask");
+let logoDark = document.getElementById("logoDark");
+let logoLight = document.getElementById("logoLight");
 
 initAnimation();
 
@@ -13,12 +15,14 @@ function initAnimation(){
         moonMask.style.right = "-5px";
         moonOrSun.style.transform = "scale(1)"
         sunRays.style.transform = "scale(0.1)"
+        showLogoDark();
     }
     else{
         moonMask.style.top = "-25px";
         moonMask.style.right = "-15px";
         moonOrSun.style.transform = "scale(0.5)"
         sunRays.style.transform = "scale(0.6)"
+        showLogoLight();
     }
 }
 
@@ -101,4 +105,14 @@ function makeLight(){
     bodyElement.style.setProperty('--horizontalRule', "");
     bodyElement.style.setProperty('--inputBackground', "");
     bodyElement.style.setProperty('--tooltip', "lightgrey");
+}
+
+function showLogoDark() {
+    logoDark.classList.remove("hidden");
+    logoLight.classList.add("hidden");
+}
+
+function showLogoLight() {
+    logoDark.classList.add("hidden");
+    logoLight.classList.remove("hidden");
 }

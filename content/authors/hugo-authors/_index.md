@@ -14,5 +14,5 @@ social:
   - title: medium
     url: https://medium.com/@nerdycap007
   - title: github
-    url: https://github.com
+    url: https://github.com/amansharma007
 ---

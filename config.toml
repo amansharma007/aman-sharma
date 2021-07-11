@@ -1,6 +1,6 @@
 baseURL = "https://nerdycap.com/"
 languageCode = "en-us"
-title = "Nerdycap"
+title = "The NerdyCap Blog | Vue.js | JavaScript | HTML | CSS"
 
 # Novela settings
 theme = "hugo-theme-novela"

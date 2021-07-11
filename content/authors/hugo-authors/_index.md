@@ -1,19 +1,18 @@
 ---
-title: Hugo Authors
+title: Aman Sharma
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
-avatar: /images/profile-01.jpeg
+  Aman (@nerdycap007) is a Frontend Developer who loves writing about what he learns. He is immensly fond of music and fitness.
+avatar: /images/nerdycap007-profile.png
 featured: true
 social:
+  - title: twitter
+    url: https://twitter.com/nerdycap007
+  - title: instagram
+    url: https://www.instagram.com/nerdycap007
   - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
+    url: https://github.com/amansharma007
+  - title: medium
+    url: https://medium.com/@nerdycap007
   - title: github
     url: https://github.com
 ---

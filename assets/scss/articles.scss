@@ -65,18 +65,6 @@
     color: var(--primary);
     margin: 0;
 
-    .cta-line {
-      color: blue
-    }
-
-    .secondary-line {
-      color: grey
-    }
-
-    .tertiary-line {
-      
-    }
-  
     /*DESKTOP*/
     @media screen and (max-width: $desktop){
       font-size: 38px

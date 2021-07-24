@@ -1,8 +1,8 @@
 ---
 hero:
   ctaLine: The NerdyCap Blog
-  secondaryLine: Vue.js | JavaScript | HTML | CSS
-  tertiaryLine: Web Development Tutorials, Random learnings, Dev News and more...
+  secondaryLine: For the people who push code to Web!
+  tertiaryLine: Vue.js | JavaScript | HTML | CSS | More...
   maxWidthPX: 652
 seo:
   image: /images/hero-2.jpg

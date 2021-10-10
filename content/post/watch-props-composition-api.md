@@ -1,7 +1,7 @@
 ---
-title: Emoji Support
-date: 2019-03-05
-hero: "/images/hero-3.jpg"
+title: How to watch props change with Composition API in Vue.js?
+date: 2021-07-24
+# hero: "/images/hero-3.jpg"
 excerpt: Guide to emoji usage in Hugo
 authors:
   - Aman Sharma

@@ -1,7 +1,7 @@
 ---
 title: Aman Sharma
 bio: |
-  Aman (@nerdycap007) is a Frontend Developer who loves writing about what he learns. He is immensly fond of music and fitness.
+  Aman (@nerdycap007) is a Developer who loves writing about what he learns. He is immensly fond of music, fitness and dreaming and executing dreams.
 avatar: /images/nerdycap007-profile.png
 featured: true
 social:

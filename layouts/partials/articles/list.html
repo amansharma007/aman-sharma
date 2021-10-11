@@ -1,9 +1,13 @@
-<section class="section nartrow">
+<section class="articles-list-section section nartrow">
+    <div id="ownerBio">
+      {{ partial "bio.html" . }}
+    </div>
     <div id="articlesList" class="articles-list-container show-details articles-list-container-alt">
         {{ $posts := partialCached "func/GetArticles" . "articles" }}
         {{ $paginator := .Paginate $posts }}
         {{ $biggerFirst := true }}
         {{ $biggerPlaced := false }}
+        {{ $totalPosts := len $posts}}
         {{ range $index, $article := $paginator.Pages }}
             {{ $counter := mod $index 2 }}
             {{ if not $counter }}
@@ -38,10 +42,13 @@
                 </div>
               </div>
             </a>
+            {{ if ne (add $index 1) $totalPosts }}
+              <div class="post-separator"></div>
+            {{ end }}
             {{ $counter := mod (add $index 1) 2 }}
             {{ $len := (where .Pages "Type" "posts") }}
             {{ if or (eq $counter 0) (eq (add $index 1) $len) }}
-                </div>
+          </div>
                 {{ $biggerPlaced = false }}
                 {{ if $biggerFirst }}
                   {{ $biggerFirst = false }}

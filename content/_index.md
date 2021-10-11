@@ -1,7 +1,7 @@
 ---
 hero:
   ctaLine: Hi, I'm Aman Sharma.
-  secondaryLine:  I code to turn dreams into a piece of software...
+  secondaryLine:  '[ "I code to turn dreams into a piece of software.", "I live to solve problems and create epic shit.", "And most importantly, I dream a lot..." ]'
   # tertiaryLine: Excerpts from the life of a Dreamer....
   maxWidthPX: 1000
 seo:

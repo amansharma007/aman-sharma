@@ -21,6 +21,7 @@
 @import "article.scss";
 @import "authors.scss";
 @import "paginator.scss";
+@import "typewriter.scss";
 
 
 /**
@@ -206,6 +207,10 @@ img.Image__Zoom ~ div {
   path{
     fill: var(--primary);
   }
+}
+
+.highlight-text{
+  color: var(--accent)
 }
 
 img{

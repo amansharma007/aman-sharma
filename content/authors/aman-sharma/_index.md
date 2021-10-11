@@ -1,7 +1,7 @@
 ---
 title: Aman Sharma
 bio: |
-  Aman (@nerdycap007) is a Developer who loves writing about what he learns. He is immensly fond of music, fitness and dreaming and executing dreams.
+  Aman (@nerdycap007) is a Developer who loves to write about what he learns. He sings, works out and dreams...
 avatar: /images/nerdycap007-profile.png
 featured: true
 social:

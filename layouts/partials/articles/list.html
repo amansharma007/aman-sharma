@@ -1,5 +1,5 @@
 <section class="section nartrow">
-    <div id="articlesList" class="articles-list-container show-details">
+    <div id="articlesList" class="articles-list-container show-details articles-list-container-alt">
         {{ $posts := partialCached "func/GetArticles" . "articles" }}
         {{ $paginator := .Paginate $posts }}
         {{ $biggerFirst := true }}
@@ -22,9 +22,9 @@
               {{ end }}
             {{ end }}>
               <div class="article-data-outer">
-                <div class="image-container">
+                <!-- <div class="image-container">
                   <img src="{{ $article.Params.hero }}" class="article-image" />
-                </div>
+                </div> -->
                 <div class="article-data">
                   <h2 class="article-title">
                     {{ $article.Params.title }}

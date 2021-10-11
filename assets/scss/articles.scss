@@ -163,17 +163,27 @@
 }
 
 .author-alc{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--card)), to(var(--background-color)));
-    background-image: -o-linear-gradient(var(--card), var(--background-color));
-    background-image: linear-gradient(var(--card), var(--background-color));
-    padding-top: 90px;
+    // background-image: -webkit-gradient(linear, left top, left bottom, from(var(--card)), to(var(--background-color)));
+    // background-image: -o-linear-gradient(var(--card), var(--background-color));
+    // background-image: linear-gradient(var(--card), var(--background-color));
+    padding-top: 50px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    /*PHABLET*/
+    @media screen and (max-width: $phablet){
+      max-width: 90%;
+    }
 
     .post-row-alt{
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
+            // -ms-flex-pack: center;
+            -ms-flex-wrap: wrap !important;
+          flex-wrap: wrap !important;
                 justify-content: center;
         .article-link{
-            max-width: 40%!important;
+            max-width: 100% !important;
             margin: 15px;
         }
     }
@@ -374,9 +384,11 @@
     font-size: 21px;
     font-family: var(--serif);
     margin-bottom: 35px;
+    margin-right: auto;
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
+    max-width: 100%;
   
     /*DESKTOP*/
     @media screen and (max-width: $desktop){
@@ -403,7 +415,8 @@
     margin-right: 0;
     margin-bottom: 10px;
     color: var(--grey);
-    display: none;
+    // display: none;
+    max-width: 100%;
   
     /*DESKTOP*/
     @media screen and (max-width: $desktop){
@@ -578,6 +591,15 @@
 
 .articles-list-container-alt{
 
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*PHABLET*/
+  @media screen and (max-width: $phablet){
+    max-width: 90%;
+  }
+
     .post-row{
       -ms-flex-wrap: wrap !important;
           flex-wrap: wrap !important;
@@ -594,6 +616,7 @@
                 flex-direction: row;
         -ms-flex-wrap: none;
             flex-wrap: none;
+        margin: 20px auto;
   
         .article-data-outer{
           display: -webkit-box !important;
@@ -615,7 +638,7 @@
           }
         
           .article-data{
-            width: 46%;
+            width: 100%;
           }
         }
       }

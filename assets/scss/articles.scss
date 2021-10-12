@@ -58,6 +58,7 @@
 }
 
 .heading-container{
+    min-height: 40vh;
     margin: 160px 0;
 
     /*DESKTOP*/
@@ -179,7 +180,6 @@
 
 #ownerBio {
   margin-top: 20px;
-  border-right: 1px solid var(--horizontalRule);
   padding-right: 40px;
   /*PHABLET*/
   @media screen and (max-width: $phablet){
@@ -629,12 +629,15 @@
 .articles-list-container-alt{
 
   max-width: 70%;
-  margin-left: 60px;
+  padding-left: 60px;
   margin-right: auto;
+  border-left: 1px solid var(--horizontalRule);
 
   /*PHABLET*/
   @media screen and (max-width: $phablet){
+    padding-left: 0;
     margin-left: auto;
+    border-left: 0;
     max-width: 90%;
   }
 

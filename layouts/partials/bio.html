@@ -7,7 +7,11 @@
                 </div>
                 {{ end }}
             </a>
-            <h1 class="author-heading">{{ .Params.owner.Title }}</h1>
+            <h1 class="author-heading">
+                <a href="{{ .Params.owner.url }}">
+                    {{ .Params.owner.Title }}
+                </a>
+            </h1>
             <p class="author-subheading">{{ .Params.owner.bio }}</p>
             <div class="author-social">
                 {{ partial "author/social_links.html" . }}

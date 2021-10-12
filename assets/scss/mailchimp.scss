@@ -1,0 +1,35 @@
+#mc_embed_signup {
+  color: var(--primary);
+  form {
+    max-width: 60%;
+    margin: 0 auto;
+
+    /*PHABLET*/
+    @media screen and (max-width: $phablet) {
+      max-width: 100%;
+    }
+  }
+
+  p {
+    padding: 0;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .button.mailchimp-submit {
+    border-radius: 0;
+    background: var(--operator);
+    color: var(--primary);
+  }
+
+  input.email {
+    border-radius: 0;
+    color: #000;
+  }
+
+  div.mce_inline_error {
+    background: transparent !important;
+  }
+}

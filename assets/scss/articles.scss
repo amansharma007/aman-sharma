@@ -632,6 +632,7 @@
   padding-left: 60px;
   margin-right: auto;
   border-left: 1px solid var(--horizontalRule);
+  min-height: 500px;
 
   /*PHABLET*/
   @media screen and (max-width: $phablet){

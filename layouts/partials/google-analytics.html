@@ -1,0 +1,21 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-725QCS7TXK"
+></script>
+<script>
+  (function () {
+    if (window.location.hostname === "localhost") {
+      console.log("Local server running! Google Analytics not running.");
+      return;
+    } else {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-725QCS7TXK");
+    }
+  })();
+</script>

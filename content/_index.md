@@ -5,7 +5,7 @@ hero:
   # tertiaryLine: Excerpts from the life of a Dreamer....
   maxWidthPX: 1000
 seo:
-  image: /images/hero-2.jpg
+  image: /images/nerdycap007-profile.png
 owner: 
   title: Aman Sharma
   url: '/authors/aman-sharma'

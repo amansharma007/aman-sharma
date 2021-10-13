@@ -441,13 +441,30 @@
     }
 }
 
+.article-tag-chips {
+  display: flex;
+  flex-wrap: wrap;
+
+  /*PHABLET*/
+  @media screen and (max-width: $phablet){
+    padding: 0 20px 0;
+  }
+
+  .article-tag-chip {
+    padding: 2px 8px;
+    margin: 4px;
+    border-radius: 4px;
+    border: 2px solid var(--dark-grey);
+    color: var(--primary);
+  }
+}
+
 .article-excerpt{
     font-size: 16px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 10px;
     color: var(--grey);
-    // display: none;
     max-width: 100%;
   
     /*DESKTOP*/
@@ -456,7 +473,7 @@
     }
   
     /*PHABLET*/
-    @media screem and (max-width: $phablet){
+    @media screen and (max-width: $phablet){
       margin-bottom: 15px;
       max-width: 100%;
       padding:  0 20px;

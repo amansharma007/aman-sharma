@@ -5,6 +5,7 @@ date: 2021-10-10
 excerpt: While we live our lives we hear a very common phrase about someone. "He has lost his spark." But what is this spark and how do you get it back once your lose it? Let's delve deeper...
 authors:
   - Aman Sharma
+categories: ['musings']
 
 ---
 I, usually, consider myself a person who can achieve all the things that he dreams of.

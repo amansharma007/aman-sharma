@@ -1,10 +1,12 @@
 <section class="articles-list-section section nartrow">
+    <!-- This is sort of a hack. Fix this later with Taxonomies -->
+    {{ $allCategories := .Params.allcategories }}
     <div id="ownerBio">
       {{ partial "bio.html" . }}
     </div>
     <div id="articlesList" class="articles-list-container show-details articles-list-container-alt">
-        <h2 class="heading">Thoughts and musings</h2>
-        <p style="margin: 20px 0 20px; padding: 0;">An organized collection of my thoughts, musings and learnings on web dev, tech, business and life.</p>
+        <h2 class="heading">Thoughts, musings, and learnings</h2>
+        <p style="margin: 20px 0 20px; padding: 0;">A collection of useful articles on web development, tech, business and life.</p>
         {{ $posts := partialCached "func/GetArticles" . "articles" }}
         {{ $paginator := .Paginate $posts }}
         {{ $biggerFirst := true }}
@@ -35,6 +37,15 @@
                   <h2 class="article-title">
                     {{ $article.Params.title }}
                   </h2>
+                  <div class="article-tag-chips">
+                    {{ range $category :=  $article.Params.categories }}
+                      {{ if in $allCategories $category }}
+                        <span class="article-tag-chip">
+                          #{{ $category }}
+                        </span>
+                      {{ end }}
+                    {{ end }}
+                  </div>
                   <p class="article-excerpt">
                     {{ $article.Params.excerpt }}
                   </p>

@@ -4,8 +4,8 @@ hero:
   secondaryLine:  '[ "I am also known as The NerdyCap!", "I code to turn dreams into a piece of software.", "And, I live to solve problems and create epic shit!"]'
   # tertiaryLine: Excerpts from the life of a Dreamer....
   maxWidthPX: 1000
-seo:
-  image: /images/nerdycap007-profile.png
+# seo:
+#   image: /images/nerdycap007-profile.png
 owner: 
   title: Aman Sharma
   url: '/authors/aman-sharma'

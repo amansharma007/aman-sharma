@@ -1,6 +1,6 @@
 baseURL = "https://nerdycap.com/"
 languageCode = "en-us"
-title = "The NerdyCap Blog | Excerpts from the life of a dreamer..."
+title = "The NerdyCap Blog | Excerpts from the life of a coder/dreamer..."
 
 # Novela settings
 theme = "hugo-theme-novela"

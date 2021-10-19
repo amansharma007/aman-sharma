@@ -9,8 +9,8 @@
     <article  id="articleContent" class="post-content">
         {{ partial "article/hero-image.html" . }}
         {{ .Content }}
-        {{ partial "subscription/mailchimp.html" . }}
     </article>
+    {{ partial "subscription/mailchimp.html" . }}
 
 
     {{ partial "article/next.html" . }}

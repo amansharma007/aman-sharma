@@ -38,7 +38,7 @@
                   <div class="article-tag-chips">
                     {{ range $category :=  $article.Params.categories }}
                       <span class="article-tag-chip">
-                        #{{ $category }}
+                        {{ $category }}
                       </span>
                     {{ end }}
                   </div>

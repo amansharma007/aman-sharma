@@ -1,12 +1,28 @@
 ---
-title: LOL?
+title: How to structure your Vue.js application, based on your project size?
 date: 2021-10-19
 # hero: "/images/hero-3.jpg"
-excerpt: While we live our lives we hear a very common phrase about someone. "He has lost his spark." But what is this spark and how do you get it back once your lose it? Let's delve deeper...
+excerpt: It is hard to come up with the right project structure for your Vue project, instantly. Here we discuss how you can choose the right structure based on your org size. We also discuss some best practices here.
 draft: true
 authors:
   - Aman Sharma
-categories: ['something']
+categories: ['vue']
 
 ---
-as
+
+# Topics to talk about
+
+There are two types of organization that I have delt with, 
+- Early Stage Startups.
+- Mid/Large Scale Organizations.
+- Side projects.
+
+We are going to talk about how one can use Vue to it's fullest for both these use cases. 
+* Needs on these sizes of organizations.
+  * Early stage: Flexibility, Fast Delivery.
+  * Mid/Large: Scalability, Correctness in Delivery.
+  * Side projects: 
+
+* Project Structure
+* Data (Find the right word here.)
+* Best practices

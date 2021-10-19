@@ -1,6 +1,4 @@
 <section class="articles-list-section section nartrow">
-    <!-- This is sort of a hack. Fix this later with Taxonomies -->
-    {{ $allCategories := .Params.allcategories }}
     <div id="ownerBio">
       {{ partial "bio.html" . }}
     </div>
@@ -39,11 +37,9 @@
                   </h2>
                   <div class="article-tag-chips">
                     {{ range $category :=  $article.Params.categories }}
-                      {{ if in $allCategories $category }}
-                        <span class="article-tag-chip">
-                          #{{ $category }}
-                        </span>
-                      {{ end }}
+                      <span class="article-tag-chip">
+                        #{{ $category }}
+                      </span>
                     {{ end }}
                   </div>
                   <p class="article-excerpt">

@@ -12,3 +12,4 @@ post = '/:filename/'
 
 [taxonomies]
 author = "authors"
+category = "categories"

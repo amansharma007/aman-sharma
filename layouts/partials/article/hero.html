@@ -9,11 +9,15 @@
                     • {{ .ReadingTime }} min read
                 </div>
             </div>
+            
             <div class="article-tag-chips" style="margin-top: 10px; padding: 0 !important;">
-                {{ range $category :=  .Params.categories }}
-                    <span class="article-tag-chip">
-                    #{{ $category }}
-                    </span>
+                {{ range site.Taxonomies.categories }}
+                    {{ with .Page }}
+                        <!-- Use href="{{ .RelPermalink }}" target="_blank" for link -->
+                        <span class="article-tag-chip">
+                            #{{ .Params.title }}
+                        </span>
+                    {{ end }}
                 {{ end }}
               </div>
         </header>

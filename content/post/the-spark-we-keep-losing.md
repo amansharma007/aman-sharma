@@ -2,7 +2,7 @@
 title: What is this spark that we keep losing?
 date: 2021-10-10
 # hero: "/images/hero-3.jpg"
-excerpt: While we live our lives we hear a very common phrase about someone. "He has lost his spark." But what is this spark and how do you get it back once your lose it? Let's delve deeper...
+excerpt: A very common phrase that you hear about someone is, "He has lost his spark." But what is this spark and how do you get it back once your lose it? Let's delve deeper...
 authors:
   - Aman Sharma
 categories: ['musings']

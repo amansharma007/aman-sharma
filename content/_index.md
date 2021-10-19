@@ -6,7 +6,6 @@ hero:
   maxWidthPX: 1000
 # seo:
 #   image: /images/nerdycap007-profile.png
-allCategories: ['musings', 'blockchain', 'web development', 'business']
 owner: 
   title: Aman Sharma
   url: '/authors/aman-sharma'

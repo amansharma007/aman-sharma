@@ -1,5 +1,5 @@
 ---
-title: How to structure Vue.js applications, based on project or team size?
+title: How to structure Vue.js applications, based on project and team size?
 date: 2021-10-19
 # hero: "/images/hero-3.jpg"
 excerpt: It is hard to come up with the right project structure for your Vue project, instantly. Here we discuss how you can choose the right structure based on your org size. We also discuss some best practices here.

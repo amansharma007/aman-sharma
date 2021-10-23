@@ -416,6 +416,7 @@
     font-size: 21px;
     font-family: var(--serif);
     margin-bottom: 35px;
+    margin-top: 0;
     margin-right: auto;
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
@@ -639,6 +640,7 @@
 }
 
 .post-separator {
+  margin: 10px 0;
   width: 100%;
   border-top: 1px dashed var(--horizontalRule);
 }

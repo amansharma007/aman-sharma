@@ -5,6 +5,7 @@
       <div class="post-row-alt">
         {{ $scratch := newScratch }}
         {{ $scratch.Set "numPages" (len $paginator.Pages) }}
+        {{ $totalPosts := len $paginator.Pages}}
         {{ range $index, $article := $paginator.Pages }}
           {{ $counter := mod $index 2 }}
             <a href="{{ .RelPermalink }}" class="article-link">
@@ -25,6 +26,10 @@
                 </div>
               </div>
             </a>
+
+            {{ if ne (add $index 1) $totalPosts }}
+              <div class="post-separator"></div>
+            {{ end }}
             {{ if eq ($scratch.Get "numPages") (add $index 1) }}
               <a href="{{ .RelPermalink }}" style="opacity: 0;" class="article-link">
               </a>

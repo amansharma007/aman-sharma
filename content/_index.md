@@ -1,7 +1,7 @@
 ---
 hero:
   ctaLine: Hi, I'm Aman Sharma.
-  secondaryLine:  '[ "I am also known as The NerdyCap!", "I code to turn dreams into a piece of software.", "And, I live to solve problems and create epic shit!"]'
+  secondaryLine:  '[ "I am a Software Dev by day and an Internet Nerd by night.", "I code to turn dreams into a piece of software.", "I live to solve problems and create epic shit!", "And, I welcome you to my blog 😃"]'
   # tertiaryLine: Excerpts from the life of a Dreamer....
   maxWidthPX: 1000
 # seo:

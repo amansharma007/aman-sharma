@@ -1,12 +1,12 @@
 ---
-title: How to structure Vue.js applications, based on project and team size?
+title: How to keep your Vue.js application structure clean?
 date: 2021-10-19
 # hero: "/images/hero-3.jpg"
-excerpt: It is hard to come up with the right project structure for your Vue project, instantly. Here we discuss how you can choose the right structure based on your org size. We also discuss some best practices here.
+excerpt: It is hard to come up or maintain the right Frontend application structure. Lack of structure leads to Technical debt and Spaghetti code. In this article, we discuss some decent structures for your application and also some best practices.
 draft: true
 authors:
   - Aman Sharma
-categories: ['vue']
+categories: ['vuejs', 'web development']
 
 ---
 
